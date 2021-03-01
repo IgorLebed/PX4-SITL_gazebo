@@ -14,3 +14,8 @@ switch pixhawk to offboard mode
 
 source ~/UAV_Swarm_gazebo/catkin_ws/devel/setup.bash
 rosrun takeoff_pkg takeoff_node
+
+
+
+Чтобы изменить это минимальное процентное значение заряда батареи, используйте параметр SIM_BAT_MIN_PCT.
+Чтобы контролировать, насколько быстро батарея разряжается до минимального значения, используйте параметр SIM_BAT_DRAIN.
